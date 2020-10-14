@@ -18,9 +18,9 @@ export default class Navbar extends Component {
       <nav className="navbar">
         <div className="nav-center">
           <div className="nav-header">
-            {/* <Link to="/"> */}
+            <Link to="/">
               <img src={logo} alt="Beach Resort" />
-            {/* </Link> */}
+            </Link>
             <button
               type="button"
               className="nav-btn"
@@ -33,10 +33,10 @@ export default class Navbar extends Component {
             className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
           >
             <li>
-              {/* <Link to="/">Home</Link> */}Home
+              <Link to="/">Home</Link>
             </li>
             <li>
-              {/* <Link to="/rooms">Rooms</Link> */}Rooms
+              <Link to="/rooms">Rooms</Link>
             </li>
           </ul>
         </div>
